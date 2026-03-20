@@ -1,12 +1,11 @@
-import os, json
+import os
 import aiohttp
 from bs4 import BeautifulSoup
 import db
 import discord
-from discord import app_commands, Interaction
 from discord.ext import commands
 from dotenv import load_dotenv
-from datetime import datetime, timezone
+from datetime import datetime
 import logging
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(name)s: %(message)s")
